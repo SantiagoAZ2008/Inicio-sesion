@@ -1,0 +1,30 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simulación de Login y Registro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Aplicación de Login</h1>
+        <div id="login-form">
+            <h2>Iniciar Sesión</h2>
+            <input type="text" id="login-username" placeholder="Usuario" required>
+            <input type="password" id="login-password" placeholder="Contraseña" required>
+            <button onclick="login()">Iniciar Sesión</button>
+            <p id="login-message"></p>
+        </div>
+        <div id="register-form">
+            <h2>Registrarse</h2>
+            <input type="text" id="register-username" placeholder="Usuario" required>
+            <input type="password" id="register-password" placeholder="Contraseña" required>
+            <button onclick="register()">Registrarse</button>
+            <p id="register-message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
